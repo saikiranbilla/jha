@@ -1,0 +1,50 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.course {
+  background-color: #F8F8F8;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.course-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #303030;
+  margin-bottom: 40px;
+}
+
+.course-description {
+  font-size: 24px;
+  font-weight: 500;
+  color: #444444;
+  margin-bottom: 60px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 50px;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #FF9800;
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: #F57C00;
+}
